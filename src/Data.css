@@ -1,0 +1,88 @@
+.modal{
+    display: none; 
+    position:fixed; 
+    z-index: 1; 
+    padding-top: 75px; 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0,0.8);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    overflow-y: scroll;
+   
+    
+   
+}
+
+.innermodal{
+
+   width: 75%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    overflow-wrap:anywhere;
+
+}
+
+.tdmodal:hover{
+    cursor: pointer;
+    background-color: rgb(225, 225, 225);
+
+}
+
+.close{
+    font-size: 1.5rem;
+    position: fixed;
+    top:0;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+   
+}
+
+.close:hover{
+    color: red;
+}
+
+.tdsize{
+    overflow: hidden;
+    height: 200px;
+}
+
+.fav{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(0, 74, 193);
+    margin-top: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.fav:hover{
+    background-color: rgb(230, 51, 23);
+    cursor: pointer;
+}
+
+.favdiv{
+    width: 80px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   
+    
+}
+
